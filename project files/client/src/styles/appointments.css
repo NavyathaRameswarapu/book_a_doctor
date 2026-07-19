@@ -1,0 +1,30 @@
+.appointments-page{background:#fff;padding:30px;border-radius:16px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
+.appointment-table{width:100%;border-collapse:collapse;margin-top:20px}
+.appointment-table th,.appointment-table td{padding:15px;border-bottom:1px solid #eee;text-align:left}
+.appointment-table th{background:#0d6efd;color:#fff}
+.status{padding:6px 12px;border-radius:20px;color:#fff;font-size:13px}
+.confirmed{background:#198754}.pending{background:#ffc107;color:#222}.completed{background:#0dcaf0;color:#222}
+@media(max-width:768px){.appointment-table{display:block;overflow:auto}}
+.status-pending{
+    background:#fff3cd;
+    color:#b8860b;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+.status-approved{
+    background:#d4edda;
+    color:#198754;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+.status-rejected{
+    background:#f8d7da;
+    color:#dc3545;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:600;
+}

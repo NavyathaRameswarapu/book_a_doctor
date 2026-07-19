@@ -1,0 +1,82 @@
+.doctor-dashboard{
+    padding:30px;
+    background:#eef3ff;
+    min-height:100vh;
+}
+
+.doctor-dashboard h2{
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:25px;
+    color:#1b2a4e;
+}
+
+.doctor-dashboard table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.doctor-dashboard thead{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.doctor-dashboard th,
+.doctor-dashboard td{
+    padding:18px;
+    text-align:left;
+}
+
+.doctor-dashboard tbody tr{
+    border-bottom:1px solid #eee;
+}
+
+.doctor-dashboard tbody tr:hover{
+    background:#f8fbff;
+}
+
+.status-pending{
+    color:#f59e0b;
+    font-weight:600;
+}
+
+.status-approved{
+    color:#16a34a;
+    font-weight:600;
+}
+
+.status-rejected{
+    color:#dc2626;
+    font-weight:600;
+}
+
+.approve-btn{
+    background:#198754;
+    color:#fff;
+    border:none;
+    padding:8px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.approve-btn:hover{
+    background:#157347;
+}
+
+.reject-btn{
+    background:#dc3545;
+    color:#fff;
+    border:none;
+    padding:8px 16px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.reject-btn:hover{
+    background:#bb2d3b;
+}

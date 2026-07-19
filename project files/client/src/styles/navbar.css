@@ -1,0 +1,109 @@
+/* ================= NAVBAR ================= */
+
+.custom-navbar{
+    background:#ffffff;
+    padding:14px 0;
+    border-bottom:1px solid #e8e8e8;
+    box-shadow:none;
+}
+
+/* Logo */
+
+.logo-img{
+    width:48px;
+    height:48px;
+    object-fit:contain;
+    margin-right:10px;
+}
+
+.logo-text{
+    font-size:34px;
+    font-weight:800;
+    color:#f6b400;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+}
+
+/* Navbar Links */
+
+.navbar-nav{
+    align-items:center;
+}
+
+.nav-link{
+    color:#222 !important;
+    font-weight:600;
+    font-size:16px;
+    margin-right:18px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#f6b400 !important;
+}
+
+/* Buttons */
+
+.login-btn{
+    background:#f6b400;
+    color:#222 !important;
+    border:none;
+    border-radius:25px;
+    padding:8px 24px;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.register-btn{
+    background:#f6b400;
+    color:#222 !important;
+    border:none;
+    border-radius:25px;
+    padding:8px 24px;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.login-btn:hover,
+.register-btn:hover{
+    background:#e8aa00;
+    color:#222 !important;
+    transform:translateY(-2px);
+}
+
+/* Mobile */
+
+.navbar-toggler{
+    border:none;
+    box-shadow:none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none !important;
+}
+
+/* Responsive */
+
+@media (max-width:991px){
+
+    .navbar-nav{
+        margin-top:20px;
+        text-align:center;
+    }
+
+    .nav-item{
+        margin:8px 0;
+    }
+
+    .login-btn,
+    .register-btn{
+        width:180px;
+        margin:auto;
+    }
+
+    .logo-text{
+        font-size:26px;
+    }
+}
